@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --veritas-bg: #F5F4EF;
+    --veritas-surface: #FFFFFF;
+    --veritas-sidebar: #202522;
+    --veritas-accent: #536B58;
+    --veritas-bronze: #A88755;
+    --veritas-ink: #252A27;
+    --veritas-muted: #777D77;
+    --veritas-border: #E4E5DF;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--veritas-bg);
+    color: var(--veritas-ink);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  code, pre, .font-mono {
+    font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
